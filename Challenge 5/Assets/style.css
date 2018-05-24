@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+article{
+  font-family: 'Gugi', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Gugi');
+
+section{
+  font-family: 'Do Hyeon', sans-serif;
+}

@@ -1,0 +1,104 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+body{
+
+  font-size: 14px;
+  background-color:grey;
+  line-height: 1;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  font-style: serif;
+  color: black;
+  text-align: left;
+}
+
+h1{
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: Black;
+  font-family: serif;
+}
+
+h2{
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: Black;
+  font-family: serif;
+}
+
+p{
+  text-indent: 20px;
+  font-family: sans-serif;
+}
+
+ul{
+  line-height: 30px;
+}
+
+a:hover {
+  color:yellow;
+  text-decoration: none;
+}
+.ol{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: block;
+  width: 90px;
+  border: 1px solid yellow;
+  text-align: center;
+  border-bottom: 1px solid yellow;
+}
+
+a:link{
+  text-decoration: underline;
+}
+
+a:visited{
+  text-decoration: none;
+}

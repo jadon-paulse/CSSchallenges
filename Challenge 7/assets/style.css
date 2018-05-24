@@ -1,0 +1,40 @@
+body {
+ margin: 50px;
+ color: #333;
+ font-family: Verdana, sans-serif;
+ font-size: 16px;
+}
+
+.bubble {
+ position: relative;
+ width: 200px;
+ height: 100px;
+ left: 550px;
+ bottom: -150px;
+ padding: 10px;
+ border-radius: 20px;
+ background: #3B0D11;
+}
+
+.bubble:before {
+ content:"";
+ position: absolute;
+ right: 100%;
+ top: 40px;
+ width: 0;
+ height: 0;
+ border-top: 13px solid transparent;
+ border-right: 26px solid #3B0D11;
+ border-bottom: 13px solid transparent;
+}
+
+.bubble textarea {
+ position: inherit;
+ width: inherit;
+ height: inherit;
+ background: inherit;
+ margin: 0;
+ padding: 0;
+ border: none;
+ resize: none;
+}

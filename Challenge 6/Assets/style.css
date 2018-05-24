@@ -1,0 +1,75 @@
+h1{
+  font-weight: bold;
+  font-style: italic;
+}
+
+a{
+  color: Red;
+}
+
+a:hover{
+ text-decoration: none;
+ background-color: black;
+}
+
+a:active{
+  color: yellow;
+}
+
+a:visited{
+  color:  #F46036;
+}
+
+a:link{
+  color: #3BB273;
+}
+
+body{
+  background-color: #003459;
+}
+ p{
+   font-size: 18px;
+   font-style: sans-serif;
+ }
+
+ div label{
+   font-weight: bold;
+   font: 18px;
+ }
+
+ button{
+   margin-left:125px;
+ }
+
+ .container{
+   margin-left: 15px;
+   color: yellow;
+ }
+
+ #navbar{
+   overflow: hidden;
+   background-color: black;
+ }
+
+ #navbar p{
+   float: left;
+   display: block;
+   color: yellow;
+   text-align: center;
+   padding: 15px;
+   text[-decoration: underline;]
+ }
+
+ .sticky{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   overflow: hidden;
+   background-color: black;
+   color: yellow;
+   z-index: 5;position: sticky;
+ }
+
+ ::placeholder{
+   color:red;
+ }
